@@ -12,6 +12,8 @@ public class RecipeTest {
 
         assertEquals("Pancakes", recipe.getName());
         assertEquals(Arrays.asList("Flour", "Milk", "Eggs"), recipe.getIngredients());
+        assertEquals("Mix and cook.", recipe.getInstructions());
+
 
 
 

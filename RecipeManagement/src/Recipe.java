@@ -19,6 +19,10 @@ public class Recipe {
         return ingredients;
     }
 
+    public String getInstructions() {
+        return instructions;
+    }
+
 
 
 
