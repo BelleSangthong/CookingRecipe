@@ -10,18 +10,19 @@ public class Recipe {
         this.ingredients = ingredients;
         this.instructions = instructions;
     }
-
     public String getName() {
         return name;
     }
-
     public List<String> getIngredients() {
         return ingredients;
     }
-
     public String getInstructions() {
         return instructions;
     }
+
+
+
+
 
 
 
