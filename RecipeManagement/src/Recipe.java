@@ -15,6 +15,10 @@ public class Recipe {
         return name;
     }
 
+    public List<String> getIngredients() {
+        return ingredients;
+    }
+
 
 
 
