@@ -23,4 +23,10 @@ public class RecipeBookTest {
         recipeBook.removeRecipe("Pancakes");
         assertEquals(0, recipeBook.getRecipes().size());
     }
+
+    @Test
+    public void testShowAllRecipes() {
+        RecipeBook recipeBook = new RecipeBook();
+        
+    }
 }
