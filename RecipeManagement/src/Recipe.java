@@ -11,7 +11,9 @@ public class Recipe {
         this.instructions = instructions;
     }
 
-
+    public String getName() {
+        return name;
+    }
 
 
 
