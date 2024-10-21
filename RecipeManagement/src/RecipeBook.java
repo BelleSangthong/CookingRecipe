@@ -8,9 +8,17 @@ public class RecipeBook {
         this.recipes = new ArrayList<>();
     }
 
-    public void addRecipe(Recipe recipe) {
 
+    public void addRecipe(Recipe recipe) {
+        recipes.add(recipe);
     }
+
+    public List<Recipe> getRecipes() {
+        return recipes;
+    }
+
+
+
 
 
 
