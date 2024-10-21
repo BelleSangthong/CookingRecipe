@@ -20,6 +20,10 @@ public class Recipe {
         return instructions;
     }
 
+    @Override
+    public String toString() {
+        return "Recipe: " + name + "\nIngredients: " + ingredients + "\nInstructions: " + instructions;
+    }
 
 
 
